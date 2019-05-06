@@ -1,0 +1,16 @@
+{
+  "name": "graphapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "author": "Adel Elkhodary",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "mongodb": "^3.2.3"
+  }
+}
